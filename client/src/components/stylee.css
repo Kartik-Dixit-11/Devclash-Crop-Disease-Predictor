@@ -1,0 +1,32 @@
+.images{
+    background-image: url("../images//img2.jpg");
+}
+
+.images{
+    width: 100vw;
+    height: 100vh;
+};
+
+.changess:hover{
+    box-shadow: 0px 3px 38px 16px rgba(244, 191, 54, 1);
+}
+.img1{
+    background-image: url("../images//crop-disease-1.jpeg");
+    height: 300px;
+    width: 300px;
+    border-radius: 2%;
+}
+
+.img2{
+    background-image: url("../images//crop-disease-2.jpeg");
+    height: 300px;
+    width: 300px;
+    border-radius: 2%;
+}
+
+.img3{
+    background-image: url("../images//crop-disease-3.jpeg");
+    height: 300px;
+    width: 300px;
+    border-radius: 2%;
+}
