@@ -33,6 +33,7 @@ labels={'Apple-Apple scab': 0,'Apple-Black rot': 1,'Apple-Cedar apple rust': 2,'
 
 def getData(result):
     data=list(labels.keys())[list(labels.values()).index(result)]
+    data=str(data).split('-')
     return data
 
 if __name__=="__main__":

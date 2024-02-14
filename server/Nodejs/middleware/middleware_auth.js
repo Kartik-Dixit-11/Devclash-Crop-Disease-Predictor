@@ -46,7 +46,7 @@ exports.auth = (req,res,next) =>{
 exports.isStudent = (req,res,next) =>{
 
  try{
-    if(req.user.role !== lower("Student")){
+    if(req.user.role !== "Student"){
         return res.status(401).json({
             sucuess:false,
             message:"It's Protected Only for Students"
