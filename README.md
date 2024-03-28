@@ -20,3 +20,4 @@ Welcome to our Crop Diseases Detection System repository! Our system leverages a
 4. Start Backend
     npm run dev
          
+Hello world
