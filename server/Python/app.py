@@ -1,8 +1,7 @@
-from flask import Flask,request,Response,render_template,jsonify
+from flask import Flask,request,render_template,jsonify
 from flask_cors import CORS
 from fileinput import filename
 import os
-import json
 from pathlib import Path
 from werkzeug.utils import secure_filename
 import numpy as np
