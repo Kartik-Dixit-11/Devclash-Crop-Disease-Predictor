@@ -50,7 +50,7 @@ const Navbar = () =>{
                 <div class="bg-black bottom-0 w-[45px] h-[0.2rem] 
              hidden group-hover:block absolute transition all duration-200"></div>
             </li>
-
+{/* 
             <li className="hover:font-bold group">
                 <NavLink to= "/Contact" >
                     <p>{isLogin ? "LogOut" : "SignUp"}</p>
@@ -58,7 +58,7 @@ const Navbar = () =>{
                 </NavLink>
                 <div class="bg-black bottom-0 w-[45px] h-[0.2rem] 
              hidden group-hover:block absolute transition all duration-200"></div>
-            </li>
+            </li> */}
         </ul>
             </div>
     </div>
