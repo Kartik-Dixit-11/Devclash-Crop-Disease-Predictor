@@ -9,7 +9,7 @@ import Search from "./pages/Search";
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 import SelectFile from './components/SelectFile';
-import DiseaseInfo from './components/DiseaseInfo';
+
 
 function App() {
   return (
@@ -21,10 +21,15 @@ function App() {
     <Route path = "/About" element={<About/>}/>
     <Route path = "/Contact" element = {<Contact/>} />
     <Route path = "/Search" element = {<Search/>} />
+    Given Crop is of Apple
+    
+    
+    Disease associated with : Apple scab
+    
+    
     <Route path = "/Login" element = {<Login/>}/>
     <Route path = "/SignUp" element = {<SignUp/>} />
     <Route path='/selectFile' element={<SelectFile/>} />
-    <Route path='/diseaseInfo' element={<DiseaseInfo />} />
   </Routes>
   </div>
     </div>

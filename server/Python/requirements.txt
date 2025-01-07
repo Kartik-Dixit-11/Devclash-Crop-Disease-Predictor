@@ -1,8 +1,6 @@
 flask
 Flask
 tensorflow
-mlflow
-PyYAML
 pandas
 numpy
 matplotlib
@@ -10,5 +8,5 @@ seaborn
 notebook
 pytest-shutil
 opencv-python
-dagshub
+flask_cors
 -e .
