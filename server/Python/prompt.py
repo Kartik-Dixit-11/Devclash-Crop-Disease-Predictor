@@ -3,7 +3,6 @@ import pandas as pd
 from IPython.display import Markdown
 import textwrap
 
-GOOGLE_API_KEY='AIzaSyAen5KeCq7zCeIDqWN-hjE-O_sM-UEa4Ok'
 
 def generate(c,d):
   genai.configure(api_key=GOOGLE_API_KEY)
